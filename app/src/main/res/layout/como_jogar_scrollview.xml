@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvComoJogar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_intro"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_balas"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_tipos_bala"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/como_jogar_margin_texto"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/icones_tamanho"
+                android:layout_height="@dimen/icones_tamanho"
+                android:layout_margin="@dimen/icones_margin"
+                android:contentDescription="@string/ivDescBalaVermelha"
+                android:longClickable="false"
+                android:src="@drawable/bala_vermelha" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_margin="@dimen/icones_texto_margin"
+                android:gravity="left|center_vertical"
+                android:text="@string/ivDescBalaVermelha" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_bala_vermelha"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/como_jogar_margin_texto"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/icones_tamanho"
+                android:layout_height="@dimen/icones_tamanho"
+                android:layout_margin="@dimen/icones_margin"
+                android:contentDescription="@string/ivDescBalaAmarela"
+                android:longClickable="false"
+                android:src="@drawable/bala_amarela" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_margin="@dimen/icones_texto_margin"
+                android:gravity="left|center_vertical"
+                android:text="@string/ivDescBalaAmarela" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_bala_amarela"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/como_jogar_margin_texto"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/icones_tamanho"
+                android:layout_height="@dimen/icones_tamanho"
+                android:layout_margin="@dimen/icones_margin"
+                android:contentDescription="@string/ivDescBalaAzul"
+                android:longClickable="false"
+                android:src="@drawable/bala_azul" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left|center_vertical"
+                android:layout_margin="@dimen/icones_texto_margin"
+                android:gravity="left|center_vertical"
+                android:text="@string/ivDescBalaAzul" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_bala_azul"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_ajustando_canhao_titulo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_ajustando_canhao"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_atirando_titulo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/como_jogar_atirando"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Canhão</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="button_jogar">Jogar</string>
+    <string name="button_creditos">Créditos</string>
+    <string name="button_como_jogar">Como jogar</string>
+    <string name="button_sair">Sair</string>
+    <string name="button_voltar">Voltar</string>
+
+    <string name="tela_inicial_creditos1">Fernando A. H. Falkiewicz</string>
+    <string name="tela_inicial_creditos2">PUCPR: Pós-Graduação em Desenvolvimento de Jogos Digitais</string>
+
+    <string name="ivDescCanhaoAzul">Canhão Azul</string>
+    <string name="ivDescCanhaoVermelho">Canhão Vermelho</string>
+    <string name="ivDescBalaVermelha">Bala Vermelha</string>
+    <string name="ivDescBalaAmarela">Bala Amarela</string>
+    <string name="ivDescBalaAzul">Bala Azul</string>
+
+    <string name="creditos1">Fernando A. H. Falkiewicz</string>
+    <string name="creditos2">%1$s foi desenvolvido por Fernando Augusto Heeren Falkiewicz como um trabalho de pós-graduação.</string>
+    <string name="creditos3">Pontifícia Universidade Católica do Paraná - PUCPR</string>
+    <string name="creditos4">Pós-Graduação em Desenvolvimento de Jogos Digitais</string>
+    <string name="creditos5">Programação de Jogos para Dispositivos Móveis
+    \nSimulação Física para Jogos</string>
+
+    <string name="como_jogar_intro">%1$s é um jogo estilo Worms para duas pessoas.
+        \n\nDois canhões, um em cada lado da tela, trocam turnos atirando e tentando acertar o canhão oposto.
+        \n\nSeu objetivo é destruir o canhão adversário.
+        \n\nPreste atenção na direção e força do vento, representadas pela flecha no topo da tela. Ele irá afetar a trajetória do seu tiro e muda a cada turno.
+        \n\nEscolha sua bala, ajuste o ângulo do canhão, e atire com a força desejada.
+        \n\nCuidado para não acabar acertando a si mesmo!
+        \n\nVocê vence quando seu adversário fica sem vida.</string>
+
+    <string name="como_jogar_balas">\nEscolhendo a Bala</string>
+
+    <string name="como_jogar_tipos_bala">\nExistem 3 tipos de bala, cada uma com massa e dano diferente.</string>
+
+    <string name="como_jogar_bala_vermelha">Peso: Grande
+            \nDano: Alto
+            \nQuantidade: 3</string>
+
+    <string name="como_jogar_bala_amarela">Peso: Médio
+            \nDano: Médio
+            \nQuantidade: 5</string>
+
+    <string name="como_jogar_bala_azul">Peso: Leve
+            \nDano: Baixo
+            \nQuantidade: Infinitas</string>
+
+    <string name="como_jogar_ajustando_canhao_titulo">\nAjustando o canhão</string>
+
+    <string name="como_jogar_ajustando_canhao">\nToque em qualquer lugar na tela para fazer seu canhão apontar para esse ponto.
+        \n\nO canhão tem angulação limitada, não é possível mirar muito baixo.
+        \n\nDepois de ajustar seu canhão pressione o botão "Pronto".</string>
+
+    <string name="como_jogar_atirando_titulo">\nAtirando</string>
+
+    <string name="como_jogar_atirando">\nAgora você está pronto para atirar!
+        \n\nToque a tela e segure.
+        \n\nQuanto mais tempo segurar mais forte será o tiro.
+        \n\nAo soltar, o tiro será disparado.</string>
+</resources>

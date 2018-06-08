@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/button_background" />
+            <corners android:radius="@dimen/button_radius" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/button_offset_bottom_size">
+        <selector>
+            <item android:state_pressed="true">
+                <shape>
+                    <solid android:color="@color/button_foreground_pressed" />
+                    <corners android:radius="@dimen/button_radius" />
+                </shape>
+            </item>
+            <item>
+                <shape>
+                    <solid android:color="@color/button_foreground" />
+                    <corners android:radius="@dimen/button_radius" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</layer-list>

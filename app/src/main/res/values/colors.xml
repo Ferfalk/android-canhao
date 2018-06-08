@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_start">#d3eeff</color>
+    <color name="bg_end">#0094f1</color>
+
+    <color name="button_foreground">#eeeeee</color>
+    <color name="button_foreground_pressed">#dddddd</color>
+    <color name="button_background">#b2b2b2</color>
+</resources>
